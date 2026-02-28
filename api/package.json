@@ -1,13 +1,17 @@
 {
   "name": "yousefos-proxy",
   "version": "1.0.0",
+  "description": "Headless Chromium proxy for YousefOS browser",
   "main": "api/fetch.js",
   "engines": {
     "node": "24.x"
   },
+  "scripts": {
+    "start": "vercel dev"
+  },
   "dependencies": {
     "puppeteer-core": "^24.4.0",
-    "chrome-aws-lambda": "^20.0.0",
+    "chrome-aws-lambda": "^10.1.0",
     "axios": "^1.6.0"
   }
 }
