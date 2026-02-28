@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "puppeteer-core": "^24.4.0",
-    "chrome-aws-lambda": "^21.0.0",
+    "chrome-aws-lambda": "^20.0.0",
     "axios": "^1.6.0"
   }
 }
